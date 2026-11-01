@@ -221,4 +221,93 @@ Appendix E: Red Team Rules
 - No data exfiltration beyond dummy
 - Immediate stop on encountering safety triggers
 
+## 13. Resources & References
+
+### 13.1 Essential Tools
+- **Recon**: amass, subfinder, findomain, httpx, dnsx, chaos, theHarvester
+- **Scanning**: nmap, rustscan, masscan, naabu
+- **Web**: Burp Suite, OWASP ZAP, ffuf, gobuster, nuclei, sqlmap, arjun
+- **Exploitation**: Metasploit Framework, impacket, BloodHound
+- **Forensics**: Volatility, Rekall, Sleuth Kit, Autopsy
+- **Automation**: Python requests, go tooling, bash
+
+### 13.2 GitHub Repos & Collections
+- SecLists - https://github.com/danielmiessler/SecLists
+- Awesome Hacking - https://github.com/carlospolop/awesome-hacking
+- Awesome Bug Bounty - https://github.com/digininja/Awesome-Bug-Bounty
+- Pentest-Tools - https://github.com/rapid7/metasploit-framework
+- BloodHound - https://github.com/BloodHoundAD/BloodHound
+- Nuclei Templates - https://github.com/projectdiscovery/nuclei-templates
+- OSINT Framework - https://github.com/jivoi/OSINT-Framework
+
+### 13.3 Wikis & Documentation
+- OWASP Testing Guide - https://owasp.org/www-project-web-security-testing-guide/
+- OWASP Cheat Sheets - https://cheatsheetseries.owasp.org/
+- MITRE ATT&CK - https://attack.mitre.org/
+- SANS Reading Room - https://www.sans.org/reading-room/
+- HackTricks - https://book.hacktricks.xyz/
+
+### 13.4 Forums & Communities
+- Reddit r/NetSec, r/Pentesting, r/OSINT
+- StackExchange Information Security
+- Discord: Pentest Crew, HackTheBox Community
+- Twitter/X Security Researchers
+- Bug Bounty platforms: HackerOne, Bugcrowd, Intigriti
+
+### 13.5 Databases & Intelligence
+- Shodan - https://www.shodan.io/
+- Censys - https://censys.io/
+- GreyNoise - https://www.greynoise.io/
+- VirusTotal - https://www.virustotal.com/
+- AlienVault OTX - https://otx.alienvault.com/
+- CVE Database - https://nvd.nist.gov/
+
+### 13.6 Useful Sites & Services
+- Certificate Transparency: crt.sh
+- DNS history: SecurityTrails, ViewDNS
+- Subdomain search: subdomains.io, crt.sh
+- Tech fingerprint: Wappalyzer, BuiltWith
+- Exploit DB: https://www.exploit-db.com/
+- Packet Storm: https://packetstormsecurity.com/
+- NVD - National Vulnerability Database
+
+### 13.7 Learning Platforms
+- Hack The Box - https://www.hackthebox.com/
+- TryHackMe - https://tryhackme.com/
+- PortSwigger Web Security Academy
+- OffSec PEN-200
+- eLearnSecurity
+
+Appendix A: Wordlists, payloads, checklists
+- Subdomain wordlists: SecLists
+- Common directories: /admin, /backup, /config
+- SQLi payloads: classic boolean, time-based
+- XSS payloads: <svg onload=alert(1)>
+
+Appendix B: Reporting templates
+```
+Finding ID: F-001
+Title: ...
+Severity: High
+CVSS: 8.2
+...
+```
+
+Appendix C: Legal references by jurisdiction
+- US: CFAA 18 U.S.C. §1030
+- EU: NIS2 Directive
+- UK: Computer Misuse Act 1990
+
+Appendix D: Daily Checklist
+- [ ] Review scope
+- [ ] Update recon notes
+- [ ] Log all commands
+- [ ] Take screenshots
+- [ ] Verify impact
+
+Appendix E: Red Team Rules
+- No damage to production
+- No data exfiltration beyond dummy
+- Immediate stop on encountering safety triggers
+
 *Last updated: 2026-11-01*

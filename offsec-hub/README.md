@@ -1,4 +1,4 @@
-# h4cker — Curated Offensive Security Hub
+# OffSec Hub — Curated Offensive Security Resource Index
 
 Original resource index built for the Hacker Playbook. Ethical use only.
 

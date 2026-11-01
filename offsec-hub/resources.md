@@ -1,4 +1,4 @@
-# h4cker Resources
+# OffSec Hub Resources
 
 ## Tools by Phase
 
